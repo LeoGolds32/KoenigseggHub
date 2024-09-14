@@ -1,0 +1,29 @@
+* {     /* Index */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {      /* Index */
+    .background-video{
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    background-color: antiquewhite;
+}
+/* Estilos para la navbar */
+.navbar {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos dentro de la navbar */
+    justify-content: space-between; /* Distribuye los elementos a lo largo de la barra */
+    height: 60px; /* Altura de la navbar */
+    background-color: transparent;
+    padding: 0 20px; /* Espaciado interno a los lados de la navbar */
+    font-family: "Work Sans", sans-serif;
+}
